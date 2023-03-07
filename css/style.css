@@ -1,5 +1,25 @@
-<html>
-<head>
-<body style="background-color:yellow;">
-</body>
-</html>
+.{
+    box-sizing: border box
+}
+
+.card img {
+    height: 160px;
+    width: 200px;
+}
+
+body {
+    background.color: lightyellow;
+    text-align: center;
+}
+
+.card-row {
+    width: 20%;
+    margin: 0 5px;
+}
+
+.card-column {
+    width: 20%;
+    float: left;
+    padding: 16px;
+    box-shodow: 0 8px 16px 0 rgba(0, 0, 0, 0,1);
+}
