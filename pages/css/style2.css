@@ -1,0 +1,36 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    columns-gap: 10px;
+}
+
+baris1: {
+    border: 2px  solid blueviolet;
+    position: relative;
+    border-radius: 20px
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+    object-fit:cover;
+    width: 245px;
+    height: 350px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.title{
+    font-weight:bold;
+    font-size: large;
+    color: black;
+    margin: 10px;
+}
+
+baris2{
+    border: 2px  solid blueviolet;
+    position: relative;
+    border-radius: 20px
+    background-color: blanchedalmond;
+    text-align: center;
+}

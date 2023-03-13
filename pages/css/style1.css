@@ -1,65 +1,85 @@
 .luar{
-    background-color: black;
-    width: 30;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 10px;
+    width: 500px;
+    border: 2px solid #000;
+    margin: 5px auto;
+    padding: 5px;
+    box-sizing: border-colom;
 }
 .grid-container {
     display: grid;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-template-rows: repeat(1fr);
+    grid-gap: 10px;
 }
 .grid-container > div {
     display: grid;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    font-size: 15px;
+    padding: 1px;
+    font-size: 20px;
     color: black;
     
 }
 .item1 {
+    height:70px;
+    width:70px;
     background-color: navy;
-    grid-area: 4 / 2 / auto / auto ;
+    grid-area: 4 / 2 / span 3 / span 2;
 }
 .item2 {
+    height:70px;
+    width:200px;
     background-color: brown;
-    grid-area: 1 / 2 / auto / span 2;
+    grid-area: 1 / 2 / auto / auto;
 }
 
 .item3 {
+    height:150px;
+    width:200px;
     background-color: burlywood;
-    grid-area: 3 / 1 / span 2 / auto;
+    grid-area: 3 / 1 / span 3 / span 2;
 }
 .item4 {
+    height:150px;
+    width:200px;
     background-color: blueviolet;
-    grid-area: 1 / 1 / span 2 / auto;
+    grid-area: 1 / 1 / span 2 / span 1;
 }
 .item5 {
+    height:80px;
+    width: 70px;
     background-color: blanchedalmond;
     grid-area: 2 / 3 / span 1 / auto;
 }
 .item6 {
+    height:80px;
+    width:70px;
     background-color: chartreuse;
     grid-area: 5 / 3 / auto / auto;
 }
 .item7 {
+    height:100px;
+    width:300px;
     background-color: cadetblue;
-    grid-area: 5 / 1 / auto / span 2;
+    grid-area: 5 / 1 / span 1 / span 3;
 }
 .item8 {
+    height:150px;
+    width:70px;
     background-color: lightgrey;
-    grid-area: 3 / 3 / span 2 / span 1;
+    grid-area: 3 / 3 / span 2 / auto;
 }
 .item9 {
+    height:100px;
+    width:350px;
     background-color: orchid;
-    grid-area: 6 / 1 / auto / span 3;
+    grid-area: 6 / 1 / span 2 / span 3;
 }
 .item10 {
+    height: 150px;
+    width:70px;
     background-color: midnightblue;
-    grid-area: 2 / 2 / span 2 / span 1;
+    grid-area: 2 / 2 / span 4 / span 4;
 }
