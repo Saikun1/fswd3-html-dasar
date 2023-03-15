@@ -1,0 +1,37 @@
+/* Style popup modal */
+.modal {
+    display: none; /* Sembunyikan popup modal secara default */
+    position: fixed; /* Tampilan posisi tetap */
+    z-index: 1; /* Mengatur tampilan pada layer teratas */
+    left: 0;
+    top: 0;
+    width: 100%; /* Lebar layar */
+    height: 100%; /* Tinggi layar */
+    overflow: auto; /* Izinkan pengguna menggulir konten ketika popup modal muncul */
+    background-color: rgba(0,0,0,0.4); /* Warna latar belakang */
+  }
+  
+  /* Style konten popup modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Style tombol tutup */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
