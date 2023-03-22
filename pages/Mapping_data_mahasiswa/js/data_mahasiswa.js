@@ -1024,6 +1024,7 @@ let data = {
     "avarage" : m.length,
     "max" : m.length,
     "min" : m.length,
+    
   }
 }
 
